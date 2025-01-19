@@ -1,90 +1,217 @@
 layout: {qmk_keyboard: corne_rotated, layout_name: LAYOUT_split_3x6_3}
 layers:
-  BAS: [↹, Q, W, E, R, T, Y, U, I, O, P, '$$mdi:backspace-outline$$', '$$mdi:apple-keyboard-control$$', A, S, D, F, G, H, J, K, L, ;, '''', '$$mdi:apple-keyboard-shift$$',
-    Z, X, C, V, B, N, M, ',', ., /, Esc, '$$mdi:apple-keyboard-command$$', LOW, ␣, ⏎, RAI, '$$mdi:apple-keyboard-option$$']
-  LOW:
+  default:
   - ↹
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
   - $$mdi:backspace-outline$$
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: ENTER, h: '$$mdi:apple-keyboard-control$$'}
+  - $$mdi:apple-keyboard-shift$$
+  - '&tp_mt LGUI Z'
+  - '&tp_mt LALT X'
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - '&tp_mt RALT DOT'
+  - '&tp_mt LGUI FSLH'
+  - $$mdi:apple-keyboard-shift$$
+  - {t: Home, h: number}
+  - {t: Esc, h: symbol}
+  - $$mdi:backspace-outline$$
+  - ␣
+  - {t: ⌦, h: symbol}
+  - {t: End, h: number}
+  number:
   - BT CLR
   - BT 1
   - BT 2
   - BT 3
   - BT 4
   - BT 5
+  - {t: ▽, type: trans}
+  - '7'
+  - '8'
+  - '9'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - F12
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
+  - '4'
+  - '5'
+  - '6'
+  - .
+  - {t: ▽, type: trans}
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - '0'
+  - '1'
+  - '2'
+  - '3'
+  - ','
+  - {t: ▽, type: trans}
+  - {type: held}
+  - nav
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - nav
+  - {t: ▽, type: trans}
+  symbol:
+  - '`'
+  - '='
+  - Sft+1
+  - AltGr+[
+  - AltGr+]
+  - Sft+]
+  - AltGr+6
+  - AltGr+1
+  - Sft+5
+  - AltGr+`
+  - Sft+7
+  - AltGr+4
+  - Sft+`
+  - Sft+=
+  - Sft+-
+  - AltGr+'
+  - AltGr+#
+  - Sft+0
+  - Sft+[
+  - '-'
+  - Sft+2
+  - '['
+  - ''''
+  - Sft+'
+  - Sft+3
+  - NUBS
+  - Sft+NUBS
+  - Sft+8
+  - Sft+9
+  - ']'
+  - AltGr+E
+  - AltGr+3
+  - Sft+6
+  - Sft+4
+  - AltGr+2
+  - '~'
+  - nav
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - nav
+  nav:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ←
   - ↓
   - ↑
   - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-shift$$
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - Home
+  - Page Down
+  - Page Up
+  - End
+  - Insert
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-command$$
-  - {type: held}
-  - ␣
-  - ⏎
-  - {t: ▽, type: trans}
-  - $$mdi:apple-keyboard-option$$
-  RAI:
-  - ↹
-  - '!'
-  - '@'
-  - '#'
-  - $
-  - '%'
-  - ^
-  - AMPS
-  - KP MULTIPLY
-  - (
-  - )
+  - {t: Home, type: held}
+  - {t: Esc, type: held}
   - $$mdi:backspace-outline$$
-  - $$mdi:apple-keyboard-control$$
+  - {t: game, h: toggle}
+  - ⌦
+  - End
+  game:
+  - ↹
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - '3'
+  - '2'
+  - '1'
+  - Esc
+  - ⌦
+  - '6'
+  - {t: Caps Lock, h: '$$mdi:apple-keyboard-control$$'}
+  - A
+  - S
+  - D
+  - F
+  - G
+  - O
+  - '4'
+  - '5'
+  - L
+  - '7'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp LCLK'
-  - {t: ▽, type: trans}
-  - '&mkp RCLK'
-  - '-'
-  - '='
-  - '['
-  - ']'
-  - \
-  - '`'
   - $$mdi:apple-keyboard-shift$$
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - Home
+  - Page Down
+  - Page Up
+  - End
+  - Insert
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - _
-  - +
-  - '{'
-  - '}'
-  - '|'
-  - '~'
-  - $$mdi:apple-keyboard-command$$
-  - '&studio_unlock'
+  - ↑
+  - ↓
   - ␣
-  - ⏎
-  - {t: '&studio_unlock', type: held}
-  - $$mdi:apple-keyboard-option$$
+  - {t: game, h: toggle}
+  - ''
+  - ''
