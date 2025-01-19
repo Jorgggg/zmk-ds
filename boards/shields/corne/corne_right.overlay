@@ -5,6 +5,7 @@
  */
 
 #include "corne.dtsi"
+#include "corne.keymap"
 
 &default_transform {
     col-offset = <6>;

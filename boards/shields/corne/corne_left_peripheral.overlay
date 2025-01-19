@@ -5,6 +5,7 @@
  */
 
 #include "corne.dtsi"
+#include "corne.keymap"
 
 &kscan0 {
     col-gpios
