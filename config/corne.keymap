@@ -36,7 +36,7 @@ compatible = "zmk,keymap";
                         bindings = <
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &mt LCTRL CAPS &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL ENTER 
-   &kp LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+   &kp LSHFT &tp_mt LGUI Z &tp_mt LALT X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &tp_mt RALT DOT &tp_mt LGUI FSLH &kp RSHFT
              &kp HOME &kp ESC &kp BSPC   &kp SPACE &kp DEL &kp END
                         >;
                 };
