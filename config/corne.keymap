@@ -37,8 +37,22 @@ compatible = "zmk,keymap";
    &kp TAB   &kp Q &kp W &kp E &kp R &kp T   &kp Y &kp U  &kp I     &kp O   &kp P    &kp BSPC
    &mt LCTRL CAPS &kp A &kp S &kp D &kp F &kp G   &kp H &kp J  &kp K     &kp L   &kp SEMI &mt RCTRL ENTER 
    &kp LSHFT &tp_mt LGUI Z &tp_mt LALT X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &tp_mt RALT DOT &tp_mt LGUI FSLH &kp RSHFT
-             &kp HOME &kp ESC &kp BSPC   &kp SPACE &kp DEL &kp END
+             &lt 1 HOME &kp ESC &kp BSPC   &kp SPACE &kp DEL &kp END
                         >;
                 };
+				                number_layer {
+// -----------------------------------------------------------------------------------------
+// | TRNS | TRNS| TRNS| TRNS| TRNS| TRNS|   | TRNS|  7  |  8  |  9  | TRNS| TRNS |
+// | F7   | F8  | F9  | F10 | F11 | F12 |   | NUM |  4  |  5  |  6  | DOT | TRNS |
+// | F1   | F2  | F3  | F4  | F5  | F6  |   |  0  |  1  |  2  |  3  |COMMA| TRNS |
+//                    | TRNS|MO(3)| TRNS|   | TRNS|MO(3)| TRNS|
+                        bindings = <
+   &trans &trans  &trans &trans  &trans  &trans         &trans  &kp N7   &kp N8 &kp N9  &trans &trans
+   &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp F12                                         &trans &kp N4 &kp N5 &kp N6 &kp DOT &trans
+   &kp F1  &kp F2 &kp F3 &kp F4 &kp F5 &kp F6                                           &kp N0 &kp N1 &kp N2  &kp N3 &kp COMMA &trans
+                     &trans  &mo 3  &trans      &trans  &mo 3   &trans
+                        >;
+                };
+
     };
 };
