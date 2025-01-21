@@ -28,7 +28,7 @@
 compatible = "zmk,keymap";
 
                 default_layer {
-                        display-name = "BAS"
+                        display-name = "BAS";
 // -----------------------------------------------------------------------------------------
 // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BKSP |
 // |CL CPS|  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |CL NTR|
@@ -42,7 +42,7 @@ compatible = "zmk,keymap";
                         >;
                 };
 		number_layer {
-                        display-name = "NUM"
+                        display-name = "NUM";
 // -----------------------------------------------------------------------------------------
 // | TRNS | TRNS| TRNS| TRNS| TRNS| TRNS|   | TRNS|  7  |  8  |  9  | TRNS| TRNS |
 // | F7   | F8  | F9  | F10 | F11 | F12 |   | TRNS|  4  |  5  |  6  | DOT | TRNS |
@@ -56,7 +56,7 @@ compatible = "zmk,keymap";
                         >;
                 };
                 symbol_layer {
-                        display-name = "SYM"
+                        display-name = "SYM";
 // -----------------------------------------------------------------------------------------
 // |  º	  |  ¡  |  !  |  [  |  ]  |  *  |   |  ¬  |  |  |  %  |  \  |  /  |  ~   |
 // |  ª   |  ¿  |  ?  |  {  |  }  |  =  |   |  ^  |  '  |  "  |  `  |  ´  |  ¨   |
@@ -71,7 +71,7 @@ compatible = "zmk,keymap";
                 };
 
                 nav_layer {
-                        display-name = "NAV"
+                        display-name = "NAV";
 // -----------------------------------------------------------------------------------------
 // |   	  |     |     |     |     |     |   |     |     |     |     |     |      |
 // |      |     |     |     |     |     |   |  L  |  D  |  U  |  R  |     |      |
@@ -86,7 +86,7 @@ compatible = "zmk,keymap";
                 };
 
                 game_layer {
-                        display-name = "PLAY"
+                        display-name = "PLAY";
 // -----------------------------------------------------------------------------------------
 // |   	  |     |     |     |     |     |   |     |     |     |     |     |      |
 // |      |     |     |     |     |     |   |  L  |  D  |  U  |  R  |     |      |
