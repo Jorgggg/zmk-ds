@@ -11,6 +11,9 @@ manifest:
     # nice_oled - dongle_display!view - oled Adapter
     - name: mctechnology17
       url-base: https://github.com/mctechnology17
+    # dongle_display fork
+    - name: jorgggg
+      url-base: https://github.com/Jorgggg
   projects:
     - name: zmk
       remote: zmkfirmware
@@ -22,7 +25,7 @@ manifest:
       revision: main
     # dongle_display
     - name: zmk-dongle-display
-      remote: englmaxi
+      remote: jorgggg
       revision: main
     # nice_oled
     - name: zmk-nice-oled
