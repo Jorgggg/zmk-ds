@@ -44,25 +44,25 @@ layers:
   - {t: ⌦, h: SYM}
   - {t: End, h: NUM}
   NUM:
-  - '&RGB_TOG'
-  - '&RGB_HUI'
-  - '&RGB_HUD'
-  - '&RGB_SAI'
-  - '&RGB_SAD'
-  - '&RGB_BRI'
-  - '&RGBBRD'
+  - {t: '$$mdi:led-on$$', h: '$$mdi:toggle-switch$$', s: '$$mdi:led-outline$$', type: toggle}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:palette$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', s: '$$mdi:eyedropper$$', type: sym_by_sym}
+  - {t: '$$mdi:led-outline$$', s: '$$tabler:brightness-down$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', s: '$$tabler:brightness-up$$', type: sym_by_sym}
   - '7'
   - '8'
   - '9'
-  - '&RGB_SPI'
-  - '&RGB_SPD'
+  - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer$$', type: sym_by_sym}
+  - {t: '$$mdi:led-on$$', h: '$$mdi:speedometer-slow$$', type: sym_by_sym}
   - F7
   - F8
   - F9
   - F10
   - F11
   - F12
-  - '&RGB_EFF'
+  - {t: '$$mdi:led-on$$', h: '$$mdi:page-previous-outline$$', type: tap_dance}
   - '4'
   - '5'
   - '6'
