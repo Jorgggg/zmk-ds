@@ -44,25 +44,25 @@ layers:
   - {t: ⌦, h: SYM}
   - {t: End, h: NUM}
   NUM:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&RGB_TOG'
+  - '&RGB_HUI'
+  - '&RGB_HUD'
+  - '&RGB_SAI'
+  - '&RGB_SAD'
+  - '&RGB_BRI'
+  - '&RGBBRD'
   - '7'
   - '8'
   - '9'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&RGB_SPI'
+  - '&RGB_SPD'
   - F7
   - F8
   - F9
   - F10
   - F11
   - F12
-  - {t: ▽, type: trans}
+  - '&RGB_EFF'
   - '4'
   - '5'
   - '6'
